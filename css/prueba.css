@@ -1,0 +1,26 @@
+
+
+
+
+.grid-container{
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: 30px auto 60px;
+    grid-template-rows: 50px 100px 50px;
+}
+
+.grid-container div {
+    background-color: coral;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+}
+
+.margen{
+    background-color: aquamarine;
+    margin: -20px;
+}
+
+.amarillo{
+    background-color: yellow;
+}
