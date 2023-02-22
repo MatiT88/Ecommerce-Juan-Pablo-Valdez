@@ -163,6 +163,14 @@ header{
 .producto:nth-child(1) {
   grid-column-start: 1;
   grid-column-end: 7;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.producto:nth-child(1) img {
+  height: 53rem;
+  width: 100%;
+  object-fit: cover;
 }
 
 .producto:nth-child(2) {
@@ -170,9 +178,21 @@ header{
   grid-column-end: 4;
 }
 
+.producto:nth-child(2) img {
+  height: 30rem;
+  width: 100%;
+  object-fit: cover;
+}
+
 .producto:nth-child(3) {
   grid-column-start: 4;
   grid-column-end: 7;
+}
+
+.producto:nth-child(3) img {
+  height: 30rem;
+  width: 100%;
+  object-fit: cover;
 }
 
 .producto:nth-child(4) {
@@ -215,6 +235,42 @@ header{
 .texto-producto .precio {
   font-size: 2.8rem;
   font-weight: 900;
+}
+
+/* Footer start */
+.site-footer {
+  margin-top: 5rem;
+  padding-top: 5rem;
+  border-top: 1px solid #e1e1e1;
+}
+
+.site-footer h3 {
+  margin-bottom: 0.5rem;
+}
+
+.grid-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+/* Lo mismo hecho con flexbox */
+/* .grid-footer {
+  display: flex;
+  gap: 2rem
+}
+
+.grid-footer div {
+  flex: 1;
+} */
+
+.footer-menu a {
+  display: block;
+}
+
+.copyright{
+  margin-top: 5rem;
+  text-align: center;
 }
 
 
